@@ -31,3 +31,7 @@ If we write the database logic, business logic as well as the display logic in a
 <img class="wp-image-3201 alignnone" title="Voilatiing Single Responsibility Principle in C#" src="https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle.png" alt="Voilatiing Single Responsibility Principle in C#" width="656" height="251" srcset="https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle.png 823w, https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle-300x115.png 300w, https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle-768x294.png 768w" sizes="(max-width: 656px) 100vw, 656px">
 
 ### Implementing the Single Responsibility Principle in C#
+
+`Please have a look at the following diagram. `
+
+<img class="wp-image-3202 alignnone" title="Single Responsibility Principle in C#" src="https://dotnettutorials.net/wp-content/uploads/2018/06/Single-Responsibility-Principle-in-C.png" alt="Single Responsibility Principle in C#" width="687" height="219" srcset="https://dotnettutorials.net/wp-content/uploads/2018/06/Single-Responsibility-Principle-in-C.png 931w, https://dotnettutorials.net/wp-content/uploads/2018/06/Single-Responsibility-Principle-in-C-300x95.png 300w, https://dotnettutorials.net/wp-content/uploads/2018/06/Single-Responsibility-Principle-in-C-768x244.png 768w" sizes="(max-width: 687px) 100vw, 687px">
