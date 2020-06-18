@@ -18,6 +18,7 @@ namespace SRP_Demo_WorkReport
 
             var saver = new FileSaver();
             saver.SaveToFile(@"Reports", "WorkReport.txt", report);
+            StandardMessage.EndApplication();
         }
     }
 }
