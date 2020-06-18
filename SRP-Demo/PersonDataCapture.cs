@@ -10,13 +10,16 @@ namespace SRP_Demo
     {
         public static  Person Capture()
         {
-            Person user = new Person();
+            Person output = new Person();
+
             // Ask for user information 
             Console.Write("What is you First name :");
-            user.FirstName = Console.ReadLine();
+            output.FirstName = Console.ReadLine();
+
             Console.Write("What is you Last name :");
-            user.LastName = Console.ReadLine();
-            return user;
+            output.LastName = Console.ReadLine();
+
+            return output;
         }
     }
 }
