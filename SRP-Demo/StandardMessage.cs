@@ -14,6 +14,7 @@ namespace SRP_Demo
         }
         public static void EndApplication()
         {
+            Console.WriteLine("Press enter to close...");
             Console.ReadLine();
         }
         public static void ValidateErrorMessage(string fildeName)
