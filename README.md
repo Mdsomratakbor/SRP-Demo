@@ -24,6 +24,8 @@ If we write the database logic, business logic as well as the display logic in a
   <li><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Better testability</span></strong></li>
   <li><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Reduced coupling</span></strong></li>
 </ol>
+
 ### Example of without the Single Responsibility Principle:
+
 <p style="text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Please have a look at the following diagram that we want to implement in the following example.</span></p>
 <img class="wp-image-3201 alignnone" title="Voilatiing Single Responsibility Principle in C#" src="https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle.png" alt="Voilatiing Single Responsibility Principle in C#" width="656" height="251" srcset="https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle.png 823w, https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle-300x115.png 300w, https://dotnettutorials.net/wp-content/uploads/2018/06/Voilatiing-Single-Responsibility-Principle-768x294.png 768w" sizes="(max-width: 656px) 100vw, 656px">
