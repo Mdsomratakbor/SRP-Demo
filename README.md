@@ -8,7 +8,6 @@ So, with the help of SRP, the classes become smaller and cleaner and thus easier
 
 ### How can we achieve the Single Responsibility Principle in C#?
 `Let us understand the need for the Single Responsibility Principle in C# with an example. Suppose we need to design an Invoice class. As we know an Invoice class basically used to calculate various amounts based on its data. The Invoice class does not know how to retrieve the data, or how to format the data for display, print, logging, or sending an email, etc. 
-
 If we write the database logic, business logic as well as the display logic in a single class, then our class performing multiple responsibilities. Then it becomes very difficult to change one responsibility without breaking the other responsibilities. So, by mixing multiple responsibilities into a single class, we are getting the following disadvantage,`
 
 <ol style="text-align: justify;">
