@@ -11,12 +11,7 @@ namespace SRP_Demo
         static void Main(string[] args)
         {
             StandardMessage.WelcomeMessage();
-            Person user = new Person();
-            // Ask for user information 
-            Console.Write("What is you First name :");
-            user.FirstName = Console.ReadLine();
-            Console.Write("What is you Last name :");
-            user.LastName = Console.ReadLine();
+        
             //Checks to be sure the first and last name are valid
             if (!string.IsNullOrWhiteSpace(user.FirstName))
             {
