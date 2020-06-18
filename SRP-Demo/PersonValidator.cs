@@ -13,14 +13,12 @@ namespace SRP_Demo
             //Checks to be sure the first and last name are valid
             if (!string.IsNullOrWhiteSpace(person.FirstName))
             {
-                Console.WriteLine("Yod did not give us a valid first name !");
-                StandardMessage.EndApplication();
+                StandardMessage.ValidateErrorMessage("first name");
                 return false;
             }
             if (!string.IsNullOrWhiteSpace(person.LastName))
             {
-                Console.WriteLine("Yod did not give us a valid last name !");
-                StandardMessage.EndApplication();
+                StandardMessage.ValidateErrorMessage("last name");
                 return  false;
             }
             return true;

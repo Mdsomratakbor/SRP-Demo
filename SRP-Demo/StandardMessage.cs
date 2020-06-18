@@ -16,5 +16,9 @@ namespace SRP_Demo
         {
             Console.ReadLine();
         }
+        public static void ValidateErrorMessage(string fildeName)
+        {
+            Console.WriteLine($"Yod did not give us a valid { fildeName }");
+        }
     }
 }

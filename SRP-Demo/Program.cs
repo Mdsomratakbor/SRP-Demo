@@ -14,7 +14,11 @@ namespace SRP_Demo
 
 
             Person user = PersonDataCapture.Capture();
-            
+            bool isUserValid = PersonValidator.Validate(user);
+            if (!isUserValid)
+            {
+                StandardMessage.EndApplication();
+            }
             // create a username for the person
             Console.WriteLine($"Your username is {user.FirstName.Substring(0, 1)}{user.LastName}");
             StandardMessage.EndApplication();
