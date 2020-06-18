@@ -24,3 +24,4 @@ If we write the database logic, business logic as well as the display logic in a
   <li><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Better testability</span></strong></li>
   <li><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Reduced coupling</span></strong></li>
 </ol>
+### Example of without the Single Responsibility Principle:
