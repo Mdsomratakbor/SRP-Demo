@@ -1,1 +1,1 @@
-# SRP-Demo
+# Single Responsibility Principle
