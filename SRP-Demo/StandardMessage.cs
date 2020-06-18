@@ -8,5 +8,13 @@ namespace SRP_Demo
 {
     public class StandardMessage
     {
+        public static void WelcomeMessage()
+        {
+            Console.WriteLine("Welcome to application");
+        }
+        public static void EndApplication()
+        {
+            Console.ReadLine();
+        }
     }
 }
