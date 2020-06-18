@@ -14,17 +14,4 @@ namespace SRP_Demo_WorkReport
         public int SpentHours { get; set; }
     }
 
-//public class FileSaver
-//    {
-//        public void SaveToFile(string directoryPath, string fileName, WorkReport report)
-//        {
-//            if (!Directory.Exists(directoryPath))
-//            {
-//                Directory.CreateDirectory(directoryPath);
-//            }
-
-//            File.WriteAllText(Path.Combine(directoryPath, fileName), report.ToString());
-//        }
-//    }
-
 }
