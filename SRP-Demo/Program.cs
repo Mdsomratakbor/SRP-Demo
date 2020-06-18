@@ -15,11 +15,11 @@ namespace SRP_Demo
 
             Person user = PersonDataCapture.Capture();
             bool isUserValid = PersonValidator.Validate(user);
-            if (!isUserValid)
+            if (isUserValid == false)
             {
                 StandardMessage.EndApplication();
             }
-       
+            AccountGenerator.CreateAccount(user);
             StandardMessage.EndApplication();
         }
     }
