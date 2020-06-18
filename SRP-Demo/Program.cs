@@ -19,8 +19,7 @@ namespace SRP_Demo
             {
                 StandardMessage.EndApplication();
             }
-            // create a username for the person
-            Console.WriteLine($"Your username is {user.FirstName.Substring(0, 1)}{user.LastName}");
+       
             StandardMessage.EndApplication();
         }
     }
